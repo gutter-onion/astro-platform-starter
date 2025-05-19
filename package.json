@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/netlify": "^6.2.3",
     "@astrojs/react": "^4.2.1",
+    "@astrojs/tailwind": "^6.0.2",
     "@fontsource-variable/inter": "^5.2.5",
     "@netlify/blobs": "^8.2.0",
     "@netlify/functions": "^2.8.2",
@@ -24,11 +25,13 @@
     "marked-shiki": "^1.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^4.0.14",
     "unique-names-generator": "^4.7.1"
   },
   "devDependencies": {
     "@types/blobshape": "^1.0.3",
-    "@types/node": "^20.12.7"
+    "@types/node": "^20.12.7",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^3.4.17"
   }
 }
