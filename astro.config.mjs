@@ -9,7 +9,7 @@ export default defineConfig({
   adapter: netlify(),
   vite: {
     server: {
-      allowedHosts: ['devserver-main--ctrlaltrecycle.netlify.app'], // ✅ allow Netlify dev server
+      allowedHosts: ['all'], // ✅ allow Netlify dev server
     },
   },
 })
